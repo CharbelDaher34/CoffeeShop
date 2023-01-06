@@ -62,6 +62,7 @@
             // 
             // GroupAdd
             // 
+            this.GroupAdd.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.GroupAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.GroupAdd.Controls.Add(this.IsIn);
             this.GroupAdd.Controls.Add(this.label3);
@@ -76,7 +77,7 @@
             this.GroupAdd.Controls.Add(this.cb);
             this.GroupAdd.Controls.Add(this.AdminAdd);
             this.GroupAdd.Controls.Add(this.rtb);
-            this.GroupAdd.Location = new System.Drawing.Point(148, 21);
+            this.GroupAdd.Location = new System.Drawing.Point(98, 49);
             this.GroupAdd.Name = "GroupAdd";
             this.GroupAdd.Size = new System.Drawing.Size(377, 308);
             this.GroupAdd.TabIndex = 0;
@@ -177,6 +178,7 @@
             this.Pname.Text = "Name";
             this.Pname.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Pname_MouseClick);
             this.Pname.TextChanged += new System.EventHandler(this.Pname_TextChanged);
+            this.Pname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Pname_KeyPress);
             // 
             // cb
             // 
@@ -210,7 +212,7 @@
             // 
             // AdminLog
             // 
-            this.AdminLog.Location = new System.Drawing.Point(665, 50);
+            this.AdminLog.Location = new System.Drawing.Point(615, 82);
             this.AdminLog.Name = "AdminLog";
             this.AdminLog.Size = new System.Drawing.Size(105, 23);
             this.AdminLog.TabIndex = 1;
@@ -223,16 +225,15 @@
             this.groupBox1.Controls.Add(this.AdminPrint);
             this.groupBox1.Controls.Add(this.AdminDelete);
             this.groupBox1.Controls.Add(this.NameDelete);
-            this.groupBox1.Location = new System.Drawing.Point(531, 21);
+            this.groupBox1.Location = new System.Drawing.Point(481, 50);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(128, 150);
+            this.groupBox1.Size = new System.Drawing.Size(128, 105);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Delete Product";
             // 
             // AdminPrint
             // 
-            this.AdminPrint.Location = new System.Drawing.Point(14, 95);
+            this.AdminPrint.Location = new System.Drawing.Point(6, 81);
             this.AdminPrint.Name = "AdminPrint";
             this.AdminPrint.Size = new System.Drawing.Size(75, 23);
             this.AdminPrint.TabIndex = 5;
@@ -242,7 +243,7 @@
             // 
             // AdminDelete
             // 
-            this.AdminDelete.Location = new System.Drawing.Point(14, 66);
+            this.AdminDelete.Location = new System.Drawing.Point(6, 57);
             this.AdminDelete.Name = "AdminDelete";
             this.AdminDelete.Size = new System.Drawing.Size(75, 23);
             this.AdminDelete.TabIndex = 1;
@@ -260,9 +261,9 @@
             // 
             // AdminStock
             // 
-            this.AdminStock.Location = new System.Drawing.Point(665, 21);
+            this.AdminStock.Location = new System.Drawing.Point(615, 50);
             this.AdminStock.Name = "AdminStock";
-            this.AdminStock.Size = new System.Drawing.Size(86, 23);
+            this.AdminStock.Size = new System.Drawing.Size(86, 26);
             this.AdminStock.TabIndex = 3;
             this.AdminStock.Text = "DisplayStock";
             this.AdminStock.UseVisualStyleBackColor = true;
@@ -290,13 +291,13 @@
             // loginFormToolStripMenuItem
             // 
             this.loginFormToolStripMenuItem.Name = "loginFormToolStripMenuItem";
-            this.loginFormToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.loginFormToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.loginFormToolStripMenuItem.Text = "LoginForm";
             this.loginFormToolStripMenuItem.Click += new System.EventHandler(this.loginFormToolStripMenuItem_Click);
             // 
             // Orders
             // 
-            this.Orders.Location = new System.Drawing.Point(665, 79);
+            this.Orders.Location = new System.Drawing.Point(615, 111);
             this.Orders.Name = "Orders";
             this.Orders.Size = new System.Drawing.Size(75, 23);
             this.Orders.TabIndex = 5;
@@ -308,6 +309,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Orders);
             this.Controls.Add(this.AdminStock);

@@ -7,8 +7,6 @@ namespace Coffee_shop.shop
     public class Shop : List<Product>
     {
         float benefitrate;
-        string name;
-
         public Shop(float benefitrate) => this.benefitrate = benefitrate;
         public float Benefitrate => benefitrate;
         public void Edit(Product p)
@@ -109,6 +107,7 @@ namespace Coffee_shop.shop
                     .Add(product.Name, product.Description, product.Price, product.QuantityInStock,
                     string.Join(", ", product.Categories), string.Join(", ", product.Attributes.Select(x => x.Key + "=" + x.Value)));
             }
+
         }
 
         public bool equal0(Product p)

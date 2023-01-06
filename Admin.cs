@@ -104,8 +104,8 @@ namespace Coffee_shop
 
             if (Program.daher.Contains(name))
             {
-                var message = "The item " + name + " is deleted by " + Program.User + 
-                    " at " + Program.datetime + "\n" 
+                var message = "The item " + name + " is deleted by " + Program.User +
+                    " at " + Program.datetime + "\n"
                     + Program.daher.Where(x => x.Name == name).FirstOrDefault().ProductInfo();
                 Helper.StreamWriter(message, "AdminDelete.txt");
                 Program.daher.Remove(name, true);
@@ -130,7 +130,7 @@ namespace Coffee_shop
             }
         }
 
-       async void AdminLog_Click(object sender, EventArgs e)
+        async void AdminLog_Click(object sender, EventArgs e)
         {
             await Task.Delay(5000);
 
@@ -152,13 +152,24 @@ namespace Coffee_shop
         {
             await Task.Delay(10000);
             MessageBox.Show(Helper.StreamReader("UserTransactions.txt"));
-            
+
         }
 
         private void Pname_TextChanged(object sender, EventArgs e)
         {
             IsIn.Checked = Program.daher.Contains(Pname.Text);
         }
+
+        private void Pname_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 32)
+            {
+                // Cancel the key press
+                e.Handled = true;
+            }
+        }
+
+
 
         // this.GroupAdd.Enter += new System.EventHandler(this.GroupAdd_Enter);
     }

@@ -35,6 +35,7 @@
             this.LoginForm = new System.Windows.Forms.ToolStripMenuItem();
             this.sortbut = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.All = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -93,7 +94,7 @@
             this.sortbut.TabIndex = 2;
             this.sortbut.Text = "Sort QuantityInStock";
             this.sortbut.UseVisualStyleBackColor = true;
-            this.sortbut.Click += new System.EventHandler(this.sortbut_Click);
+            this.sortbut.Click += new System.EventHandler(this.sortbut_Click_1);
             // 
             // button1
             // 
@@ -105,11 +106,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // All
+            // 
+            this.All.Location = new System.Drawing.Point(420, 376);
+            this.All.Name = "All";
+            this.All.Size = new System.Drawing.Size(83, 23);
+            this.All.TabIndex = 4;
+            this.All.Text = "AllProducts";
+            this.All.UseVisualStyleBackColor = true;
+            this.All.Click += new System.EventHandler(this.All_Click);
+            // 
             // AllProducts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.All);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.sortbut);
             this.Controls.Add(this.dataGridView1);
@@ -140,5 +152,6 @@
         private ToolStripMenuItem LoginForm;
         private Button sortbut;
         private Button button1;
+        private Button All;
     }
 }

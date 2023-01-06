@@ -70,5 +70,17 @@ namespace Coffee_shop
         }
 
         void LoginBt_KeyPress(object sender, KeyPressEventArgs e) => button1_Click(sender, e);
+
+        private void LoginPassword_TextChanged(object sender, EventArgs e)
+        {
+            if(LoginPassword.Text=="Password")
+            {
+
+            }
+            else
+            {
+                LoginPassword.PasswordChar = '<';
+            }
+        }
     }
 }

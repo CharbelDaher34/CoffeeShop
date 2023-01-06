@@ -56,7 +56,32 @@ namespace Coffee_shop
 
             ResetForm();
         }
+        void printorder(object sender,EventArgs e)
+        {
+            string m = "Your order " + Program.User + " is:"+Environment.NewLine;
+            foreach (var x in RichOrder.Lines)
+            {
+                if (x != "")
+                {
+                    m += "-" + x.Split()[0] + ":" + x.Split()[1] + Environment.NewLine;
+                }
+            }
+            m += "At a price of:" + TextBill.Text + "$";
+            MessageBox.Show(m);
+            DialogResult result = MessageBox.Show("Do you want to proceed with your order?", "Confirmation", MessageBoxButtons.YesNo);
 
+            // Check if user clicked "Yes"
+            if (result == DialogResult.Yes)
+            {
+                Order_Click(sender,e);
+                MessageBox.Show("Order done");
+            }
+            else
+            {
+                MessageBox.Show("Order not done");
+            }
+
+        }
         void ResetForm()
         {
             Controls.Clear();
@@ -126,6 +151,7 @@ namespace Coffee_shop
 
         void OrderRich()
         {
+            //Dont allow the order to have more than 1 with the same name
             Dictionary<string, string> namesAndValues = new Dictionary<string, string>();
 
             foreach (string line in RichOrder.Lines)
@@ -189,6 +215,16 @@ namespace Coffee_shop
         }
 
         private void ItemPrice_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NbOrder_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

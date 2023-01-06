@@ -6,15 +6,10 @@
         food,
         appetizers,
         MainPlatter,
-        milkshakes
+        milkshakes,
+
     }
-    enum attributes
-    {
-        size,
-        color,
-        calories,
-        weight
-    }
+
     public abstract class BaseClass
     {
         public abstract void Print(bool user);

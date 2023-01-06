@@ -55,7 +55,7 @@
             // ItemsCb
             // 
             this.ItemsCb.FormattingEnabled = true;
-            this.ItemsCb.Location = new System.Drawing.Point(12, 64);
+            this.ItemsCb.Location = new System.Drawing.Point(157, 64);
             this.ItemsCb.Name = "ItemsCb";
             this.ItemsCb.Size = new System.Drawing.Size(140, 23);
             this.ItemsCb.TabIndex = 0;
@@ -64,7 +64,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 46);
+            this.label1.Location = new System.Drawing.Point(157, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 15);
             this.label1.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             // RichOrder
             // 
-            this.RichOrder.Location = new System.Drawing.Point(129, 221);
+            this.RichOrder.Location = new System.Drawing.Point(452, 64);
             this.RichOrder.Name = "RichOrder";
             this.RichOrder.ReadOnly = true;
             this.RichOrder.Size = new System.Drawing.Size(100, 96);
@@ -84,7 +84,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 196);
+            this.label2.Location = new System.Drawing.Point(452, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(62, 15);
             this.label2.TabIndex = 3;
@@ -92,7 +92,7 @@
             // 
             // TextBill
             // 
-            this.TextBill.Location = new System.Drawing.Point(129, 338);
+            this.TextBill.Location = new System.Drawing.Point(452, 185);
             this.TextBill.Name = "TextBill";
             this.TextBill.ReadOnly = true;
             this.TextBill.Size = new System.Drawing.Size(100, 23);
@@ -101,7 +101,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(129, 320);
+            this.label3.Location = new System.Drawing.Point(452, 167);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 15);
             this.label3.TabIndex = 5;
@@ -109,17 +109,17 @@
             // 
             // Order
             // 
-            this.Order.Location = new System.Drawing.Point(129, 367);
+            this.Order.Location = new System.Drawing.Point(452, 258);
             this.Order.Name = "Order";
             this.Order.Size = new System.Drawing.Size(75, 23);
             this.Order.TabIndex = 6;
             this.Order.Text = "Order";
             this.Order.UseVisualStyleBackColor = true;
-            this.Order.Click += new System.EventHandler(this.Order_Click);
+            this.Order.Click += new System.EventHandler(this.printorder);
             // 
             // AddITem
             // 
-            this.AddITem.Location = new System.Drawing.Point(14, 196);
+            this.AddITem.Location = new System.Drawing.Point(182, 279);
             this.AddITem.Name = "AddITem";
             this.AddITem.Size = new System.Drawing.Size(75, 23);
             this.AddITem.TabIndex = 8;
@@ -129,15 +129,16 @@
             // 
             // NbOrder
             // 
-            this.NbOrder.Location = new System.Drawing.Point(158, 65);
+            this.NbOrder.Location = new System.Drawing.Point(303, 65);
             this.NbOrder.Name = "NbOrder";
             this.NbOrder.Size = new System.Drawing.Size(120, 23);
             this.NbOrder.TabIndex = 9;
+            this.NbOrder.ValueChanged += new System.EventHandler(this.NbOrder_ValueChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(158, 47);
+            this.label4.Location = new System.Drawing.Point(303, 47);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 15);
             this.label4.TabIndex = 10;
@@ -145,8 +146,9 @@
             // 
             // QuantityInStock
             // 
-            this.QuantityInStock.Location = new System.Drawing.Point(12, 155);
+            this.QuantityInStock.Location = new System.Drawing.Point(157, 155);
             this.QuantityInStock.Name = "QuantityInStock";
+            this.QuantityInStock.ReadOnly = true;
             this.QuantityInStock.Size = new System.Drawing.Size(100, 23);
             this.QuantityInStock.TabIndex = 11;
             this.QuantityInStock.TextChanged += new System.EventHandler(this.QuantityInStock_TextChanged);
@@ -154,11 +156,12 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(14, 137);
+            this.label5.Location = new System.Drawing.Point(159, 137);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(98, 15);
             this.label5.TabIndex = 12;
             this.label5.Text = "Quantity In Stock";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // menuStrip1
             // 
@@ -188,8 +191,9 @@
             // 
             // ItemPrice
             // 
-            this.ItemPrice.Location = new System.Drawing.Point(12, 110);
+            this.ItemPrice.Location = new System.Drawing.Point(157, 110);
             this.ItemPrice.Name = "ItemPrice";
+            this.ItemPrice.ReadOnly = true;
             this.ItemPrice.Size = new System.Drawing.Size(100, 23);
             this.ItemPrice.TabIndex = 14;
             this.ItemPrice.TextChanged += new System.EventHandler(this.ItemPrice_TextChanged);
@@ -197,7 +201,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 94);
+            this.label6.Location = new System.Drawing.Point(157, 92);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(89, 15);
             this.label6.TabIndex = 15;
@@ -205,7 +209,7 @@
             // 
             // CoffeeProducts
             // 
-            this.CoffeeProducts.Location = new System.Drawing.Point(129, 109);
+            this.CoffeeProducts.Location = new System.Drawing.Point(274, 109);
             this.CoffeeProducts.Name = "CoffeeProducts";
             this.CoffeeProducts.Size = new System.Drawing.Size(117, 23);
             this.CoffeeProducts.TabIndex = 16;
@@ -215,7 +219,7 @@
             // 
             // AllProducts
             // 
-            this.AllProducts.Location = new System.Drawing.Point(129, 138);
+            this.AllProducts.Location = new System.Drawing.Point(274, 138);
             this.AllProducts.Name = "AllProducts";
             this.AllProducts.Size = new System.Drawing.Size(117, 23);
             this.AllProducts.TabIndex = 17;
@@ -225,7 +229,7 @@
             // 
             // ProductInfo
             // 
-            this.ProductInfo.Location = new System.Drawing.Point(129, 167);
+            this.ProductInfo.Location = new System.Drawing.Point(274, 167);
             this.ProductInfo.Name = "ProductInfo";
             this.ProductInfo.Size = new System.Drawing.Size(117, 23);
             this.ProductInfo.TabIndex = 18;
@@ -237,9 +241,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Coffee_shop.Properties.Resources.R__1_;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(963, 394);
+            this.ClientSize = new System.Drawing.Size(963, 411);
             this.Controls.Add(this.ProductInfo);
             this.Controls.Add(this.AllProducts);
             this.Controls.Add(this.CoffeeProducts);

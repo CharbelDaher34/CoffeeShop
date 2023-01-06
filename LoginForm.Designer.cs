@@ -51,6 +51,7 @@
             this.LoginPassword.TabIndex = 1;
             this.LoginPassword.Text = "Password";
             this.LoginPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.LoginPassword.TextChanged += new System.EventHandler(this.LoginPassword_TextChanged);
             // 
             // LoginBt
             // 
