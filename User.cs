@@ -108,15 +108,17 @@ namespace Coffee_shop
         void AddITem_Click(object sender, EventArgs e)
         {
             double bill = 0;
-
-            if (Convert.ToInt32(NbOrder.Value) <= Convert.ToInt32(QuantityInStock.Text.ToString()))
+            if (ItemsCb.Text != "")
             {
-                RichOrder.AppendText(ItemsCb.Text.ToString() + ' ' + Convert.ToInt32(NbOrder.Value).ToString() + "\n");
-                OrderRich();
-            }
-            else
-            {
-                MessageBox.Show("There isn't enough in stock!");
+                if (Convert.ToInt32(NbOrder.Value) <= Convert.ToInt32(QuantityInStock.Text.ToString()))
+                {
+                    RichOrder.AppendText(ItemsCb.Text.ToString() + ' ' + Convert.ToInt32(NbOrder.Value).ToString() + "\n");
+                    OrderRich();
+                }
+                else
+                {
+                    MessageBox.Show("There isn't enough in stock!");
+                }
             }
 
             string s = RichOrder.Text;
