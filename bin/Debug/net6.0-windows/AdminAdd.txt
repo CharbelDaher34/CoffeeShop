@@ -1,0 +1,49 @@
+The item LebaneseCoffee is added successfully by Charbel Daher at 11:38:03
+       Name: LebaneseCoffee
+        Description: Best In Town
+        Price: 1.5
+        Quantity in stock: 44
+        Categories: coffee, 
+        Attributes: Caffeine=1000mg/1Litre, Calories=0
+The item CheesePasta is added successfully by Charbel Daher at 11:38:44
+       Name: CheesePasta
+        Description: Cheesiest In Town
+        Price: 34
+        Quantity in stock: 214
+        Categories: MainPlatter, food, 
+        Attributes: Cheese=ALot
+The item Fries is added successfully by Charbel Daher at 11:39:32
+       Name: Fries
+        Description: French? Yes
+        Price: 9.99
+        Quantity in stock: 99
+        Categories: appetizers, food, 
+        Attributes: Origin=France, Yummy=ALot
+The item Cappucino is added successfully by Charbel Daher at 11:39:55
+       Name: Cappucino
+        Description: Creamy!
+        Price: 9.98
+        Quantity in stock: 233
+        Categories: coffee, 
+        Attributes: 
+The item ChocolatePunch is added successfully by Charbel Daher at 11:40:28
+       Name: ChocolatePunch
+        Description: You Can't take it
+        Price: 99
+        Quantity in stock: 999
+        Categories: milkshakes, 
+        Attributes: Chocolate=yes
+The item Name is added successfully by Charbel Daher at 11:40:37
+       Name: Name
+        Description: 
+        Price: 1
+        Quantity in stock: 1
+        Categories: 
+        Attributes: 
+The item Name is added successfully by Charbel Daher at 11:40:45
+       Name: Name
+        Description: 
+        Price: 1
+        Quantity in stock: 1
+        Categories: 
+        Attributes: 

@@ -1,0 +1,7 @@
+The item Name is deleted by Charbel Daher at 11:40:38
+       Name: Name
+        Description: 
+        Price: 1
+        Quantity in stock: 1
+        Categories: 
+        Attributes: 

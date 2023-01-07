@@ -1,0 +1,24 @@
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\Coffee shop.exe
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\Coffee shop.deps.json
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\Coffee shop.runtimeconfig.json
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\Coffee shop.dll
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\Coffee shop.pdb
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee_shop.Admin.resources
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee_shop.AllProducts.resources
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee_shop.LoginForm.resources
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee_shop.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee_shop.User.resources
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.dll
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\refint\Coffee shop.dll
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.pdb
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\ref\Coffee shop.dll
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\Castle.Core.dll
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\bin\Debug\net6.0-windows\FakeItEasy.dll
+C:\Users\Lenovo\Desktop\coffee shop\Coffee shop\obj\Debug\net6.0-windows\Coffee shop.csproj.CopyComplete

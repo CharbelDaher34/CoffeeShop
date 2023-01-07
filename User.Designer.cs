@@ -119,7 +119,7 @@
             // 
             // AddITem
             // 
-            this.AddITem.Location = new System.Drawing.Point(182, 279);
+            this.AddITem.Location = new System.Drawing.Point(222, 196);
             this.AddITem.Name = "AddITem";
             this.AddITem.Size = new System.Drawing.Size(75, 23);
             this.AddITem.TabIndex = 8;
