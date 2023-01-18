@@ -32,6 +32,7 @@
             this.LoginPassword = new System.Windows.Forms.TextBox();
             this.LoginBt = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // LoginUsername
@@ -73,6 +74,15 @@
             this.label1.Text = "Password is necessary if you are an admin";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(46, 139);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(196, 90);
+            this.richTextBox1.TabIndex = 4;
+            this.richTextBox1.Text = "Admin\nUsername: Charbel Daher\nPassword: OOP\n \nUser: Any username no password";
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -81,6 +91,7 @@
             this.BackgroundImage = global::Coffee_shop.Properties.Resources.R;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LoginBt);
             this.Controls.Add(this.LoginPassword);
@@ -98,5 +109,6 @@
         private Label label1;
         public TextBox LoginUsername;
         public TextBox LoginPassword;
+        private RichTextBox richTextBox1;
     }
 }
