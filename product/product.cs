@@ -91,7 +91,7 @@
             return message;
         }
 
-        public bool IsProduct()
+        private bool IsProduct()
         {
             if (Name != "" && Price != -1 && QuantityInStock != -1)
             {

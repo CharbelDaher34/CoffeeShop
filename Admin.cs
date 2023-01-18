@@ -150,7 +150,7 @@ namespace Coffee_shop
 
         async void Orders_Click(object sender, EventArgs e)
         {
-            await Task.Delay(10000);
+            await Task.Delay(5000);
             MessageBox.Show(Helper.StreamReader("UserTransactions.txt"));
 
         }

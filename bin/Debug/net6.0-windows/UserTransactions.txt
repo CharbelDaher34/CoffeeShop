@@ -1,2 +1,12 @@
 At 11:40:58 ,c has bought
     The new quantity available of:Name is:0 (taken:1)
+At 07:11:19 ,df has bought
+    The new quantity available of:LebaneseCoffee is:43 (taken:1)
+
+    The new quantity available of:ChocolatePunch is:997 (taken:2)
+At 11:49:41 ,df has bought
+    The new quantity available of:Fries is:0 (taken:99)
+
+    The new quantity available of:Cappucino is:229 (taken:4)
+
+    The new quantity available of:LebaneseCoffee is:42 (taken:2)

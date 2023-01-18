@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NmIWXsUscESx2P2DFRTY0ZkWnJhX8dEKp7DdyQuOiwBb5trkFyQ1KBR4TcGc04Wy03qfkYxpDnJRec1roLU8RQ==",
+  "dgSpecHash": "Vkz8fytwQlX9wZqvd1Hskyp41I4J2cLzZqKw1KA/opRxBZtEmxpOjMSC+GWGJwSGTwauqSbgvD3pCt1Uf6tZKA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\sem5_CharbelDaher_CoffeeShop_2022.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\CoffeeShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\fakeiteasy\\7.3.1\\fakeiteasy.7.3.1.nupkg.sha512",

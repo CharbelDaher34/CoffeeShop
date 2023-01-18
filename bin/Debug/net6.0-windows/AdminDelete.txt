@@ -5,3 +5,10 @@ The item Name is deleted by Charbel Daher at 11:40:38
         Quantity in stock: 1
         Categories: 
         Attributes: 
+The item Fries is deleted by Charbel Daher at 11:53:30
+       Name: Fries
+        Description: dsf gd
+        Price: 34
+        Quantity in stock: 10
+        Categories: 
+        Attributes: 

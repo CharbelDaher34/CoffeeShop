@@ -5211,9 +5211,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\sem5_CharbelDaher_CoffeeShop_2022.csproj",
-      "projectName": "sem5_CharbelDaher_CoffeeShop_2022",
-      "projectPath": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\sem5_CharbelDaher_CoffeeShop_2022.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\CoffeeShop.csproj",
+      "projectName": "CoffeeShop",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\CoffeeShop.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Lenovo\\Desktop\\coffee shop\\Coffee shop\\obj\\",
       "projectStyle": "PackageReference",

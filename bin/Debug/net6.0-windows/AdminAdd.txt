@@ -47,3 +47,17 @@ The item Name is added successfully by Charbel Daher at 11:40:45
         Quantity in stock: 1
         Categories: 
         Attributes: 
+The item Fries is added successfully by Charbel Daher at 11:51:39
+       Name: Fries
+        Description: dsf
+        Price: 34
+        Quantity in stock: 5
+        Categories: 
+        Attributes: 
+The item Fries is edited by Charbel Daher at 11:52:42
+       Name: Fries
+        Description: dsf gd
+        Price: 34
+        Quantity in stock: 10
+        Categories: 
+        Attributes: 

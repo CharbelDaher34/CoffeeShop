@@ -123,7 +123,7 @@ namespace Coffee_shop.shop
             Predicate<Product> p = equal0;
 
             // Get a list of the out-of-stock products
-            var outOfStockProducts = this.FindAll(equal0);
+            var outOfStockProducts = this.FindAll(p);
 
             // Print the names of the out-of-stock products
             string a = "Out-of-stock products:";
